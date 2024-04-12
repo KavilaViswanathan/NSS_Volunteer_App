@@ -1,0 +1,144 @@
+/* .content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-left, .content-right {
+  flex: 1;
+  padding: 20px;
+} */
+/* .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;  
+  overflow: hidden; 
+  position: relative; of buttons 
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s ease; 
+
+.image-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.image-container button:hover {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.image-container button:disabled {
+  opacity: 0.5; 
+  cursor: not-allowed;
+} */
+
+/* Service content styles */
+.service-content {
+  margin-top: 20px;
+}
+
+.service-content h3 {
+  margin-top: 20px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 600px; /* Set the width of each image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add margin between images */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+.image-container img:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+.activity-details, .registration-container {
+  margin: 20px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.user-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.registration-container {
+  width: 400px; /* Increase the width */
+  padding: 30px; /* Increase the padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+
+.registration-container h2 {
+  font-size: 2rem; /* Increase the font size */
+  margin-bottom: 20px; /* Increase the margin */
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="password"],
+.registration-container input[type="submit"] {
+  width: 100%;
+  padding: 10px; /* Increase the padding */
+  margin-bottom: 15px; /* Increase the margin */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registration-container input[type="submit"] {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.registration-container input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.registration-container .signup-link {
+margin-top: 10px;
+text-align: center;
+}
+
+.registration-container .signup-link a {
+color: #333;
+text-decoration: none;
+}
+
+.registration-container .signup-link a:hover {
+text-decoration: underline;
+}

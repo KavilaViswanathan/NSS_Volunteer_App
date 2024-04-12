@@ -1,0 +1,41 @@
+.update-delete-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-delete-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: calc(100% - 100px);
+    padding: 5px;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .button-group button:last-child {
+    margin-right: 0;
+  }
+  

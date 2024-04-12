@@ -1,0 +1,55 @@
+/* Admin.css */
+
+
+  .nss-volunteer-box {
+    width: 50%;
+    margin-bottom: 20px;
+    /* Add your styling for the NSS Volunteer content box here */
+  }
+  
+  .login-form-box {
+    width: 400px; /* Increase the width */
+    padding: 30px; /* Increase the padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .login-form-box h2 {
+    font-size: 2rem; /* Increase the font size */
+    margin-bottom: 20px; /* Increase the margin */
+  }
+  
+  .login-form-box input[type="text"],
+  .login-form-box input[type="password"],
+  .login-form-box input[type="submit"] {
+    width: 100%;
+    padding: 10px; /* Increase the padding */
+    margin-bottom: 15px; /* Increase the margin */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-form-box input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form-box input[type="submit"]:hover {
+    background-color: #555;
+ }
+  
+ .login-form-box .signup-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-form-box .signup-link a {
+  color: #333;
+  text-decoration: none;
+}
+
+.login-form-box .signup-link a:hover {
+  text-decoration: underline;
+}

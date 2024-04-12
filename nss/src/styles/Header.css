@@ -1,0 +1,47 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header-left {
+    font-size: 1.5rem;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem; /* Adjust the font size */
+  }
+  
+  .header-right a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    margin-right: 30px;
+  }
+  
+  .header-right a:last-child {
+    padding-right: 20px; /* Add padding to the right side of the last link */
+  }
+  
+   .header-right a:hover {
+    background-color: #555;
+  } 
+  
